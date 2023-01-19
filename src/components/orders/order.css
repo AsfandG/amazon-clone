@@ -1,0 +1,22 @@
+.orders {
+  padding: 1.25rem 5rem;
+}
+
+.orders > h1 {
+  margin: 1.875rem 0;
+}
+
+.order {
+  padding: 2.475rem;
+  margin: 20px 0;
+  background-color: #fff;
+  border: 1px solid lightgray;
+  position: relative;
+  border-radius: 3px;
+}
+
+.order_id {
+  position: absolute;
+  top: 2.475rem;
+  right: 1.25rem;
+}

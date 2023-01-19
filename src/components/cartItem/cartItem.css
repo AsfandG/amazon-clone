@@ -1,0 +1,32 @@
+.cartItem {
+  display: flex;
+  align-items: flex-start;
+  margin: 2.65rem 0;
+}
+
+.cartItem_image {
+  width: 200px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.cartItem_info {
+  padding-left: 20px;
+}
+
+.cartItem_info > button {
+  background-color: #f0c14b;
+  border: 1px solid;
+  border-color: #a88734 #9c7e31 #846a29;
+  margin-top: 15px;
+  color: #111;
+  cursor: pointer;
+}
+
+.item_rating {
+  display: flex;
+}
+
+.item_title {
+  font-weight: 700;
+}

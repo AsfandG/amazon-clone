@@ -1,0 +1,20 @@
+.home {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.home_row {
+  display: flex;
+  z-index: 1;
+  margin: 0 10px;
+}
+
+.home_image {
+  width: 100%;
+  height: 53vh;
+  object-fit: cover;
+  z-index: -1;
+  margin-bottom: -150px;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
